@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect
-} from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import PostDetail from "../components/posts/postDetail/PostDetail";
 import Home from "../components/home/Home";
 import PostByDate from "../components/postByDate/PostByDate";

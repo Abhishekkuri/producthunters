@@ -6,7 +6,7 @@ const Posts = props => {
   const posts = props.posts;
   return (
     <div>
-      <div >
+      <div>
         <h3 className="post-header">Latest Posts</h3>
       </div>
       <div>
@@ -19,7 +19,11 @@ const Posts = props => {
                 </div>
               </h4>
               <div className="post-tagline">{post.tagline}</div>
-              <div className="post-likes">Likes : {post.votes_count}</div>
+              <div className="post-likes">
+                <i className="  fa fa-thumbs-up fa-3x social">
+                  {post.votes_count}
+                </i>
+              </div>
             </div>
           );
         })}
