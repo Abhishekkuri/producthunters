@@ -1,0 +1,23 @@
+.post-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: cadetblue;
+
+}
+
+.post-name {
+    display: flex;
+    justify-content: center;
+}
+
+.post-tagline {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.post-likes {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,14 @@
+.commentBox {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    background-color: aliceblue;
+    flex-direction: column;
+    
+}
+
+.commentText {
+}
+
+.commentUser {
+}
