@@ -1,0 +1,27 @@
+.calendar{
+    border: none !important;
+    background-color: white !important;
+    color: black !important;
+}
+
+/* .temp{
+    background-color: white ;
+} */
+
+.react-date-picker, .react-date-picker *, .react-date-picker *:before, .react-date-picker *:after {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.react-calendar__tile react-calendar__tile--active react-calendar__tile--rangeStart react-calendar__tile--rangeEnd react-calendar__tile--rangeBothEnds react-calendar__month-view__days__day{
+    color: black;
+}
+.react-calendar__tile--active {
+    background: #006edc;
+     color: black; 
+}
+
+.activeDate{
+    color:#edf5e1 ;
+    padding-bottom: 1rem;
+}

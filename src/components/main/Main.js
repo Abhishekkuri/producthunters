@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink as Link } from "react-router-dom";
 import Routes from "../../routes/Routes";
+import "./Main.css"
 
 export const Main = () => {
   return (
-    <div>
+    <div className="body">
       <nav className="nav nav-pills flex-column flex-sm-row">
         <Link className="flex-sm-fill text-sm-center nav-link " exact to="/posts">
           Latest Posts
@@ -16,6 +17,7 @@ export const Main = () => {
           Archival
         </Link>
       </nav>
+      
       <Routes />
     </div>
   );

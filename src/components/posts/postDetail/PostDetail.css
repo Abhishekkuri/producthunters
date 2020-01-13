@@ -1,14 +1,37 @@
+.comment-header{
+    background-color: white;
+    /* margin: 0; */
+    padding: 0.7rem;
+    color: #ff6527;
+}
+
 .commentBox {
     display: -webkit-flex;
     display: flex;
     width: 100%;
-    background-color: aliceblue;
+    /* margin: auto; */
     flex-direction: column;
-    
+    margin-bottom: 0.5rem;
+    text-align: left;
 }
-
-.commentText {
+.commentBox:not(:last-child) {
+    border-bottom: 1px #ff6527 solid ;
+ }
+.commentText { 
+    font-size: 0.8rem;
+    display: -webkit-flex;
+    display: flex;    
+    flex-direction: column;
+    color: #edf5e1;
 }
 
 .commentUser {
+    display: -webkit-flex;
+    display: flex;    
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 0.7rem;
+     margin-right: 1rem;
+   /* margin-bottom: inherit; */
+   color: #ff6527;
 }

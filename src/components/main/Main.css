@@ -1,3 +1,13 @@
 * {
     font-size: 1.2rem;
+    background-color: black;
+}
+
+.nav{
+  background-color: #ff6527 ;
+  
+}
+
+.nav-link{
+  color: white;
 }

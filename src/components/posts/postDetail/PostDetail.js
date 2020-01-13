@@ -43,7 +43,7 @@ const PostDetail = props => {
 
   return (
     <div>
-      <h3>Comments</h3>
+      <h3 className="comment-header">Comments</h3>
       {isEmpty(post) ? (
         <div className="loader"></div>
       ) : (
