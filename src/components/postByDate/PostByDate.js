@@ -25,11 +25,7 @@ function PostByDate() {
       }
     };
     const dateToPass =
-      date.getFullYear() +
-      "-" +
-      (date.getMonth() + 1) +
-      "-" +
-      (date.getDate() - 1);
+      date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
     await Axios.get(
       `https://www.producthunt.com/v1/posts/?day=${dateToPass}`,
       headers
